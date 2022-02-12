@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.title{
+    background-color: white;
+}
+button{
+    cursor: pointer;
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+h3{
+    font-size: 2em;
+    color: blue;
+}
+
+#videoPlayer{
+    border: 2px solid #F7F2F2
+}
+
+#reproducir{
+    border: 5px solid #28E512
+}
+
+#Pause{
+    border: 5px solid #FA0404
+}
+
+#reiniciar{
+    border: 5px solid #E4F900
+}
+
+#makeLarge{
+    border: 5px solid #F232F2
+}
+
+#makeSmall{
+    border: 5px solid #7FE62A
+}
+
+#makeNormal{
+    border: 5px solid #15ED92
+}

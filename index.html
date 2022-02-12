@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!-- <script type="text/javascript" src="./js/index.js"></script> -->
+</head>
+<body>
+    <center>
+        <div class="title">
+    <h1>Pelicula Free Gay</h1>
+</div>
+<br><br>
+<video id="videoPlayer" width="500">
+  <source src="./videos/video.mkv" type="video/mp4">
+    Ocurrio un error, intentalo en otro navegador.
+</video>
+<div class="container">
+<h3>Eventos:</h3>
+
+<button onclick="play()" id="reproducir" title="reproducir"> Play </button>
+<button onclick="pause()" id="Pause" title="pausa">||</button>
+<button onclick="reload()" id="reiniciar" title="reiniciar">o</button>
+<button onclick="makeLarge()" id="makeLarge">Maximizar</button>
+<button onclick="makeSmall()"id="makeSmall">Minimizar</button>
+<button onclick="makeNormal()" id="makeNormal">Normal</button>
+</div>
+</center>
+<script>
+    var video = document.getElementById("videoPlayer");
+function play() {  
+        video.play(); 
+        }
+function pause(){
+        video.pause(); 
+}
+function reload() { 
+   video.load(); 
+} 
+function makeLarge() { 
+    video.width = 1000; 
+}
+function makeSmall() { 
+    video.width = 250; 
+} 
+function makeNormal() { 
+    video.width = 500; 
+} 
+</script>
+<!-- <script type="module" src="./js/index.js"></script> -->
+</body>
+</html>
